@@ -10,7 +10,7 @@ export default function Navbar({ logo, items = [] }) {
         <div className="flex items-center gap-2">
           <img src={logo} alt="Logo Nexo Solutions" className="w-10 h-10" />
           <span className="font-bold text-lg">
-            Nexo<span className="text-blue-200"> Solutions</span>
+            Nexo<span className="text-blue-200"> Innovations</span>
           </span>
         </div>
 

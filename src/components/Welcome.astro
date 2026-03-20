@@ -2,7 +2,6 @@
 import astroLogo from "../assets/astro.svg";
 import background from "../assets/background.svg";
 import FlexibleSection from "./FlexibleSection.astro";
-import ceo from "../assets/imagenes/ceo.jpg";
 import logo from "../assets/imagenes/logo.png";
 import Navbar from "./Navbar.jsx";
 const menuItems = [
@@ -17,7 +16,7 @@ const menuItems = [
   <header class="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md">
     <div class="container mx-auto px-6 py-4">
       <div class="flex items-center justify-between">
-        <a href="/" class="text-2xl font-semibold">Nexo<span class="text-orange-500">Solutions</span></a>
+        <a href="/" class="text-2xl font-semibold">Nexo<span class="text-orange-500">innovations</span></a>
         
         <nav class="hidden md:block">
           <ul class="flex space-x-8">
@@ -54,9 +53,9 @@ const menuItems = [
             <div class="absolute inset-0 flex items-center justify-center">
               <div class="max-w-md p-8 text-center">
                 <div class="mb-8 inline-flex h-40 w-40 items-center justify-center rounded-full bg-white/10 backdrop-blur-sm">
-                  <img src={logo.src} alt="Nexo Solutions" class="h-full w-full object-cover rounded-full" />
+                  <img src={logo.src} alt="Nexo Innovations" class="h-full w-full object-cover rounded-full" />
                 </div>
-                <h3 class="mb-4 text-3xl font-bold">Nexo <span class="text-orange-500">Solutions </span> </h3>
+                <h3 class="mb-4 text-3xl font-bold">Nexo <span class="text-orange-500">Innovations </span> </h3>
 </span>                <p class="text-lg">Conectamos tu negocio con el futuro a través de tecnología innovadora y soluciones personalizadas.</p>
               </div>
             </div>
@@ -72,7 +71,7 @@ const menuItems = [
     <div class="container mx-auto px-6">
       <div class="mb-16 text-center">
         <h2 class="mb-4 text-4xl font-bold">Nuestras <span class="text-orange-500">Soluciones Tecnológicas</span></h2>
-        <p class="mx-auto max-w-3xl text-xl text-gray-400">En Nexo Solutions nos especializamos en ofrecer soluciones tecnológicas de vanguardia para transformar el futuro de las empresas. Desde software inteligente hasta soluciones en la nube, nos aseguramos de que tu negocio evolucione con la rapidez y eficiencia que necesita.</p>
+        <p class="mx-auto max-w-3xl text-xl text-gray-400">En Nexo Innovations nos especializamos en ofrecer soluciones tecnológicas de vanguardia para transformar el futuro de las empresas. Desde software inteligente hasta soluciones en la nube, nos aseguramos de que tu negocio evolucione con la rapidez y eficiencia que necesita.</p>
       </div>
 
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -172,41 +171,7 @@ const menuItems = [
     </div>
   </section>
 
-  <!-- CEO Section -->
-  <section class="py-20">
-    <div class="container mx-auto px-6">
-      <div class="grid gap-12 items-center md:grid-cols-2">
-        <div class="relative">
-          <div class="relative h-[500px] w-full overflow-hidden rounded-[40px]">
-            <div class="absolute inset-0 border border-orange-600 bg-gray-900/50 p-8"></div>
-            <div class="absolute inset-0 flex items-center justify-center">
-              <div class="max-w-md p-8 text-center">
-                <div class="mb-8 inline-flex h-32 w-32 items-center justify-center rounded-full bg-white/10 backdrop-blur-sm overflow-hidden">
-                  <img src={ceo.src} alt="Victor Navas" class="h-full w-full object-cover rounded-full" />
-                </div>
-                <h3 class="mb-2 text-3xl font-bold">Victor Navas</h3>
-                <p class="text-lg text-orange-300">CEO & CO-Fundador</p> 
 
-              </div>
-            </div>
-          </div>
-          <div class="absolute -bottom-6 -right-6 h-40 w-40 rounded-full bg-orange-600/30 blur-3xl"></div>
-        </div>
-        
-        <div>
-          <h2 class="mb-6 text-4xl font-bold">Conoce a <span class="text-orange-500">Nuestro CEO</span></h2>
-          <div class="mb-8 text-gray-300">
-            <p class="mb-4 text-xl italic">"Es para mí un honor ser el CEO y mentor de estos jóvenes ilustres. Sin duda, representan la mejor generación de estudiantes —y ahora ingenieros en sistemas— que he tenido el privilegio de formar. Doy fe del excelente trabajo, compromiso y creatividad que demuestran en cada uno de sus proyectos."</p>
-            <p class="text-lg">Con más de 15 años de experiencia en el sector tecnológico, Victor ha liderado proyectos de transformación digital para empresas Fortune 500 y startups innovadoras por igual.</p>
-          </div>
-          <a href="#contacto" class="inline-flex items-center rounded-full bg-gradient-to-r from-orange-600 to-orange-800 px-8 py-3 font-medium hover:opacity-90">
-            <span>Trabaja con nosotros</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Proyectos Section -->
   <section id="proyectos" class="py-20 ">
@@ -309,19 +274,11 @@ const menuItems = [
               </div>
               <div>
                 <h4 class="font-semibold">Email</h4>
-                <p class="text-gray-400">contacto@nexosolutions.com</p>
+                <p class="text-gray-400">contacto@nexoinnovations.com</p>
               </div>
             </div>
             
-            <div class="flex items-center">
-              <div class="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-orange-900/30">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-400"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              </div>
-              <div>
-                <h4 class="font-semibold">Dirección</h4>
-                <p class="text-gray-400">Av. Tecnológica 123, Ciudad Innovación</p>
-              </div>
-            </div>
+            
           </div>
           
           <div class="flex space-x-4">
@@ -383,7 +340,7 @@ const menuItems = [
     <div class="container mx-auto px-6">
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <h3 class="mb-4 text-xl font-semibold">Nexo<span class="text-orange-500">Solutions</span></h3>
+          <h3 class="mb-4 text-xl font-semibold">Nexo<span class="text-orange-500">innovations</span></h3>
           <p class="mb-4 text-gray-400">Innovación tecnológica al alcance de todos. Transformamos el futuro de las empresas con soluciones de vanguardia.</p>
           <div class="flex space-x-4">
             <a href="#" class="text-gray-400 hover:text-orange-500">
@@ -426,7 +383,7 @@ const menuItems = [
         </div>
       </div>
       <div class="mt-12 border-t border-gray-800 pt-8 text-center text-gray-400">
-        <p>&copy; 2023 Nexo Solutions. Todos los derechos reservados.</p>
+        <p>&copy; 2023 Nexo innovations. Todos los derechos reservados.</p>
       </div>
     </div>
   </footer>
